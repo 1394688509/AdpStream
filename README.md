@@ -1,7 +1,7 @@
 # AdpStream
 
 ## Datasets
-You can download the processed datasets from [here](https://drive.google.com/file/d/1JNrhOr8U3Nqef1hBOqvHQPzBNWzDOFdl/view). After downloading, please unzip the files and place them into the "data" folder of the repository.
+Due to upload memory limitations, larger datasets can be downloaded manually. You can download the processed datasets from [here](https://drive.google.com/file/d/1JNrhOr8U3Nqef1hBOqvHQPzBNWzDOFdl/view). After downloading, please unzip the files and place them into the "data" folder of the repository.
 1. [KDDCUP99](http://kdd.ics.uci.edu/databases/kddcup99/kddcup99.html)
 2. [NSL-KDD](https://www.unb.ca/cic/datasets/nsl.html)
 3. [CICIDS-DoS](https://www.unb.ca/cic/datasets/ids-2018.html)
