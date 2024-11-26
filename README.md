@@ -14,12 +14,12 @@ You can download the processed datasets from [here](https://drive.google.com/fil
 12. [Covertype](https://archive.ics.uci.edu/ml/index.php)
 
 ## Params
-'--dataset': The data you choosed to train the model.
-'--dev': The device you choose to run your code.
-'--epochs': The number of epochs for ae. (Default: 8000)
-'--memlen': The size of memory.
-'--win_size': The size of local window.
-'--dim': The dimension of encoder_output.
+'--dataset': The data you choosed to train the model.\\
+'--dev': The device you choose to run your code.\\
+'--epochs': The number of epochs for ae. (Default: 8000)\\
+'--memlen': The size of memory.\\
+'--win_size': The size of local window.\\
+'--dim': The dimension of encoder_output.\\
 '--b_dim': The dimension of adapter_mapping.
 
 ## Bash
