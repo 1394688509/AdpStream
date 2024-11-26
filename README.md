@@ -22,8 +22,10 @@ You can download the processed datasets from [here](https://drive.google.com/fil
 6. '--dim': The dimension of encoder_output.
 7. '--b_dim': The dimension of adapter_mapping.
 
-## Run code
+## Requirements
 Before running the script, you need to install the dependencies listed in the requirements.txt file:
 pip3 install -r requirements.txt
+
+## Bash
 python AdpStream.py --dataset KDD --lr 1e-2 --memlen 512 --win_size 50 --dim 32 --b_dim 128 --gamma 0
 
