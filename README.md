@@ -27,5 +27,6 @@ Before running the script, you need to install the dependencies listed in the re
 pip3 install -r requirements.txt
 
 ## Bash
-python AdpStream.py --dataset KDD --lr 1e-2 --memlen 512 --win_size 50 --dim 32 --b_dim 128 --gamma 0
+Taking dataset Cardio as an example:
+pythonAdpStream.py --dataset cardio --lr 1e-3 --memlen 64 --win_size 20 --dim 2 --b_dim 64 --gamma 1
 
