@@ -14,19 +14,19 @@ You can download the processed datasets from [here](https://drive.google.com/fil
 10. [Covertype](https://archive.ics.uci.edu/ml/index.php)
 
 ## Params
-1. '--dataset': The data you choosed to train the model.
-2. '--dev': The device you choose to run your code.
-3. '--epochs': The number of epochs for ae. (Default: 8000)
-4. '--memlen': The size of memory.
-5. '--win_size': The size of local window.
-6. '--dim': The dimension of encoder_output.
-7. '--b_dim': The dimension of adapter_mapping.
+1. '--dataset': The data you choosed to train the model.  
+2. '--dev': The device you choose to run your code.  
+3. '--epochs': The number of epochs for ae. (Default: 8000)  
+4. '--memlen': The size of memory.  
+5. '--win_size': The size of local window.  
+6. '--dim': The dimension of encoder_output.  
+7. '--b_dim': The dimension of adapter_mapping.  
 
 ## Requirements
-Before running the script, you need to install the dependencies listed in the requirements.txt file:
+Before running the script, you need to install the dependencies listed in the requirements.txt file:  
 pip3 install -r requirements.txt
 
 ## Bash
-Taking dataset Cardio as an example:
+Taking dataset Cardio as an example:  
 pythonAdpStream.py --dataset cardio --lr 1e-3 --memlen 64 --win_size 20 --dim 2 --b_dim 64 --gamma 1
 
