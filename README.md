@@ -14,13 +14,13 @@ You can download the processed datasets from [here](https://drive.google.com/fil
 10. [Covertype](https://archive.ics.uci.edu/ml/index.php)
 
 ## Params
-1. '--dataset': The data you choosed to train the model.  
-2. '--dev': The device you choose to run your code.  
-3. '--epochs': The number of epochs for ae. (Default: 8000)  
-4. '--memlen': The size of memory.  
-5. '--win_size': The size of local window.  
-6. '--dim': The dimension of encoder_output.  
-7. '--b_dim': The dimension of adapter_mapping.  
+'--dataset': The data you choosed to train the model.  
+'--dev': The device you choose to run your code.  
+'--epochs': The number of epochs for ae. (Default: 8000)  
+'--memlen': The size of memory.  
+'--win_size': The size of local window.  
+'--dim': The dimension of encoder_output.  
+'--b_dim': The dimension of adapter_mapping.  
 
 ## Requirements
 Before running the script, you need to install the dependencies listed in the requirements.txt file:  
